@@ -16,7 +16,7 @@ group :development do
   gem 'spring'
 end
 group :development do
-  gem 'better_errors'
+  #gem 'better_errors'
   gem 'rails_layout'
 end
 group :development, :test do
