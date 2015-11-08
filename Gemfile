@@ -13,7 +13,6 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
-gem 'puma'
 group :development do
   gem 'better_errors'
   gem 'rails_layout'
@@ -24,6 +23,6 @@ group :development, :test do
   gem 'sqlite3'
 end
 group :production do
-  gem 'pg'
+  gem 'puma'
   gem 'rails_12factor'
 end
